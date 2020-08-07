@@ -49,8 +49,8 @@ RunTest:
     ld de, $c000
 
     ; Wave length is $2000 T-Cycles, so each sample is $100 M-Cycles long    
-    SubTest $0, 
-    SubTest $1, 
+    SubTest $0
+    SubTest $1
     SubTest $0FE
     SubTest $0FF
     SubTest $100
